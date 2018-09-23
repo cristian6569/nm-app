@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,2DAAI;AACZ,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,CAAC;CACZ",
+    "sources": [
+        "Root.scss"
+    ],
+    "names": [],
+    "file": "Root.css"
+}

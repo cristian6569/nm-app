@@ -1,0 +1,72 @@
+.appCont {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.appCont > h2 {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f0f0f;
+}
+
+.appCont #inputBuscar {
+  padding: 22px 20px;
+  width: 95%;
+  margin: 10px 0;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #c8c8c8;
+  font-family: "Nunito Sans", sans-serif;
+  border: none;
+}
+
+.appCont #inputBuscar:focus {
+  outline: none;
+}
+
+.appCont .contTags {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.appCont .contTags .tag {
+  -webkit-box-ordinal-group: 1;
+      -ms-flex-order: 0;
+          order: 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  width: auto;
+  margin-right: 15px;
+  padding: 12px 25px;
+  background-color: #c8c8c8;
+  border-radius: 5px;
+  font-family: "Nunito Sans", sans-serif;
+  color: #0f0f0f;
+  font-size: 14px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=Searchbar.css.map */

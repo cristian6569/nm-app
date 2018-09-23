@@ -1,0 +1,52 @@
+$fontText: 'Nunito Sans',
+sans-serif;
+$fontTitle: 'Montserrat',
+sans-serif;
+$tamDashboard: 100px;
+$fondoBlanco: rgb(250, 250, 250);
+$fondoDash: rgb(75, 75, 75);
+$fondoGris: rgb(200, 200, 200);
+$fondoGrisOscuto: rgb(150, 150, 150);
+$negroTexto: rgb(15, 15, 15);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $fondoBlanco;
+    width: 100%;
+}
+
+.contHome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.dash,
+.app {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+.dash {
+    position: fixed;
+}
+
+.app {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
