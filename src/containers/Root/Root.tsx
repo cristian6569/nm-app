@@ -1,7 +1,8 @@
 import * as React from 'react';
 
 import './Root.scss';
-import { Home } from '../../containers/Editor/Home/Home';
+import { Search } from '../Editor/Search/Search';
+import { Home } from '../Editor/Home/Home';
 
 
 export class Root extends React.Component {
